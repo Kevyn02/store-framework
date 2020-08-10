@@ -1,0 +1,24 @@
+{
+  "store.custom#landing": {
+    "blocks": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#landingbanner": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://s2.glbimg.com/uuiGqrzsKwzrkTvk_URZ6rARO6I=/146x149:1754x1022/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/a/S/rcVScHQD202FfXNBc9oQ/ps5.png"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema":{
+        "queryField":"Blue Retro Top Camera",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  }
+}
